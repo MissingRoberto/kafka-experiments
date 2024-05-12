@@ -123,6 +123,7 @@ func consume(ctx context.Context) {
 	}
 }
 
+// TODO: Use message headers instead
 type RetryEvent struct {
 	Event
 	Attempts int
